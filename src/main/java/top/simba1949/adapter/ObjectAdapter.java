@@ -1,8 +1,8 @@
 package top.simba1949.adapter;
 
 /**
- * @Author Theodore
- * @Date 2020/5/19 11:05
+ * @author anthony
+ * @datetime 2020/5/19 11:05
  */
 public class ObjectAdapter implements Target {
 

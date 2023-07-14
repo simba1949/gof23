@@ -1,8 +1,8 @@
 package top.simba1949.factory.abs;
 
 /**
- * @Author Theodore
- * @Date 2020/5/11 16:26
+ * @author anthony
+ * @datetime 2020/5/11 16:26
  */
 public class AmericaPizzaStore extends PizzaStore{
     @Override

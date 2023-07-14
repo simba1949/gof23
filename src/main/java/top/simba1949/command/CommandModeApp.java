@@ -1,8 +1,8 @@
 package top.simba1949.command;
 
 /**
- * @Author Theodore
- * @Date 2020/5/18 10:26
+ * @author anthony
+ * @datetime 2020/5/18 10:26
  */
 public class CommandModeApp {
     public static void main(String[] args) {

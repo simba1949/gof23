@@ -5,8 +5,8 @@ import top.simba1949.factory.abs.model.*;
 /**
  * 原料工厂
  *
- * @Author Theodore
- * @Date 2020/5/9 15:29
+ * @author anthony
+ * @datetime 2020/5/9 15:29
  */
 public interface PizzaIngredientFactory {
     /**

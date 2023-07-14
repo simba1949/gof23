@@ -2,8 +2,8 @@ package top.simba1949.factory.method;
 
 /**
  * Pizza 美国店铺
- * @Author Theodore
- * @Date 2020/5/9 13:49
+ * @author anthony
+ * @datetime 2020/5/9 13:49
  */
 public class AmericaPizzaStore extends PizzaStore{
     @Override

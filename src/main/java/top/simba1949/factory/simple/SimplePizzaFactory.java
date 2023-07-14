@@ -6,8 +6,8 @@ package top.simba1949.factory.simple;
  * 总而言之，SimplePizzaFactory 可以服务于很多客户，当创建 Pizza 改变时，只需要改变这个类即可
  *
  * 静态工厂定一个简单的工厂，为何使用静态方法，因为不需要使用创建对象的方法来实例化对象。缺点是，不能通过继承来改变创建方法的行为；
- * @Author Theodore
- * @Date 2020/5/9 12:51
+ * @author anthony
+ * @datetime 2020/5/9 12:51
  */
 public class SimplePizzaFactory {
 

@@ -1,8 +1,8 @@
 package top.simba1949.adapter;
 
 /**
- * @author Theodore
- * @date 2020/5/19 11:37
+ * @author anthony
+ * @datetime 2020/5/19 11:37
  */
 public class Client {
     private ObjectAdapter objectAdapter;

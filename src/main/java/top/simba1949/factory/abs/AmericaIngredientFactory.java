@@ -3,8 +3,8 @@ package top.simba1949.factory.abs;
 import top.simba1949.factory.abs.model.*;
 
 /**
- * @Author Theodore
- * @Date 2020/5/11 16:25
+ * @author anthony
+ * @datetime 2020/5/11 16:25
  */
 public class AmericaIngredientFactory implements PizzaIngredientFactory {
     @Override

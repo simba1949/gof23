@@ -1,8 +1,8 @@
 package top.simba1949.decorator;
 
 /**
- * @Author Theodore
- * @Date 2020/5/16 16:18
+ * @author anthony
+ * @datetime 2020/5/16 16:18
  */
 public abstract class Decorator implements Component {
     /**

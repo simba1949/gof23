@@ -1,8 +1,8 @@
 package top.simba1949.command;
 
 /**
- * @Author Theodore
- * @Date 2020/5/18 10:30
+ * @author anthony
+ * @datetime 2020/5/18 10:30
  */
 public class Receiver {
 

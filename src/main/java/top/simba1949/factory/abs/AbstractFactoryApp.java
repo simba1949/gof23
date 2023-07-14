@@ -7,8 +7,8 @@ package top.simba1949.factory.abs;
  * 4. 真实的 Pizza需要继承抽象Pizza，真实的 Pizza 原料有工厂创建
  * 5. 抽象 Pizza 店铺，
  * 6. 创建 Pizza 实体店，在 Pizza 实体店订购 Pizza
- * @Author Theodore
- * @Date 2020/5/9 16:02
+ * @author anthony
+ * @datetime 2020/5/9 16:02
  */
 public class AbstractFactoryApp {
     public static void main(String[] args) {

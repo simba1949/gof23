@@ -1,8 +1,8 @@
 package top.simba1949.observer;
 
 /**
- * @Author Theodore
- * @Date 2020/5/14 16:50
+ * @author anthony
+ * @datetime 2020/5/14 16:50
  */
 public class ConcreteObserverTwo implements Observer{
     @Override

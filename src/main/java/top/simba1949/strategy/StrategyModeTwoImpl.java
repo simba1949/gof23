@@ -1,8 +1,8 @@
 package top.simba1949.strategy;
 
 /**
- * @Author Theodore
- * @Date 2020/5/11 20:50
+ * @author anthony
+ * @datetime 2020/5/11 20:50
  */
 public class StrategyModeTwoImpl implements IStrategyMode{
     @Override

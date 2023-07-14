@@ -1,8 +1,8 @@
 package top.simba1949.factory.method;
 
 /**
- * @Author Theodore
- * @Date 2020/5/9 13:47
+ * @author anthony
+ * @datetime 2020/5/9 13:47
  */
 public abstract class Pizza {
 

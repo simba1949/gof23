@@ -2,8 +2,8 @@ package top.simba1949.factory.method;
 
 /**
  * Pizza 日本店铺
- * @Author Theodore
- * @Date 2020/5/9 13:48
+ * @author anthony
+ * @datetime 2020/5/9 13:48
  */
 public class JapanPizzaStore extends PizzaStore{
 

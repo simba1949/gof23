@@ -1,8 +1,8 @@
 package top.simba1949.factory.simple;
 
 /**
- * @Author Theodore
- * @Date 2020/5/9 13:50
+ * @author anthony
+ * @datetime 2020/5/9 13:50
  */
 public class SimpleFactoryApp {
     public static void main(String[] args) {

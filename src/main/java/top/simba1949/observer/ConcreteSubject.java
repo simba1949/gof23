@@ -1,8 +1,8 @@
 package top.simba1949.observer;
 
 /**
- * @Author Theodore
- * @Date 2020/5/14 16:48
+ * @author anthony
+ * @datetime 2020/5/14 16:48
  */
 public class ConcreteSubject extends Subject{
     @Override

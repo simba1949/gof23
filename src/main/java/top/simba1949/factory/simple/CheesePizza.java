@@ -1,8 +1,8 @@
 package top.simba1949.factory.simple;
 
 /**
- * @Author Theodore
- * @Date 2020/5/9 11:51
+ * @author anthony
+ * @datetime 2020/5/9 11:51
  */
 public class CheesePizza extends Pizza{
 

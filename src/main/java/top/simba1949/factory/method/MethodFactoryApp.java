@@ -1,8 +1,8 @@
 package top.simba1949.factory.method;
 
 /**
- * @Author Theodore
- * @Date 2020/5/9 14:30
+ * @author anthony
+ * @datetime 2020/5/9 14:30
  */
 public class MethodFactoryApp {
     public static void main(String[] args) {

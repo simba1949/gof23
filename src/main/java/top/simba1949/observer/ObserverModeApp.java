@@ -2,8 +2,8 @@ package top.simba1949.observer;
 
 /**
  * 观察者模式
- * @Author Theodore
- * @Date 2020/5/14 16:44
+ * @author anthony
+ * @datetime 2020/5/14 16:44
  */
 public class ObserverModeApp {
     public static void main(String[] args) {

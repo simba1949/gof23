@@ -1,8 +1,8 @@
 package top.simba1949.factory.abs;
 
 /**
- * @Author Theodore
- * @Date 2020/5/9 15:52
+ * @author anthony
+ * @datetime 2020/5/9 15:52
  */
 public class CheesePizza extends Pizza{
     PizzaIngredientFactory pizzaIngredientFactory;

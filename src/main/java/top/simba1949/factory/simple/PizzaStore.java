@@ -2,8 +2,8 @@ package top.simba1949.factory.simple;
 
 /**
  * Pizza 店
- * @Author Theodore
- * @Date 2020/5/9 12:53
+ * @author anthony
+ * @datetime 2020/5/9 12:53
  */
 public class PizzaStore {
 
