@@ -4,12 +4,15 @@ import lombok.extern.slf4j.Slf4j;
 import top.simba1949.adapter.classAdapter.SDTFClassAdapter;
 import top.simba1949.adapter.objAdapter.SDTFObjAdapter;
 
+import java.math.BigDecimal;
+
 /**
  * @author anthony
  * @datetime 2023/7/20 22:16
  */
 @Slf4j
 public class AdapterApplication {
+
     public static void main(String[] args) {
         // 类适配器
         // classAdapter();
