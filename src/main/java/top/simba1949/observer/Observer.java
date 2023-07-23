@@ -5,8 +5,9 @@ package top.simba1949.observer;
  * @datetime 2020/5/14 16:46
  */
 public interface Observer {
+
     /**
-     * 反应
+     * 接受消息
      */
-    void response();
+    void receive(String message);
 }
