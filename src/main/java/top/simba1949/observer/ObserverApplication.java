@@ -1,5 +1,11 @@
 package top.simba1949.observer;
 
+import top.simba1949.observer.jdk.JdkObserver;
+import top.simba1949.observer.jdk.JdkSubject;
+
+import java.util.Observable;
+import java.util.Observer;
+
 /**
  * 观察者模式
  *
@@ -9,6 +15,19 @@ package top.simba1949.observer;
 public class ObserverApplication {
 
     public static void main(String[] args) {
+        jdkObserver();
+    }
+
+    public static void jdkObserver(){
+        JdkSubject jdkSubject = new JdkSubject();
+
+        Observer observer = new JdkObserver();
+        jdkSubject.addObserver(observer);
+
+        jdkSubject.sendMsg("好消息");
+    }
+
+    public static void customObserver(){
         // 创建主题
         Subject subject = new ConcreteSubject();
 
