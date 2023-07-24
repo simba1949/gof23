@@ -39,7 +39,7 @@ public class ProxyApplication {
         // javassistProxy();
 
         // javassist 动态代理，通过代理工厂代理
-        javassistProxyByFactory();
+        // javassistProxyByFactory();
     }
 
     /**
@@ -111,7 +111,7 @@ public class ProxyApplication {
     public static void jdkProxy() {
         // realSubject 被代理的类
         RealSubject realSubject = new RealSubject();
-        Subject proxy = new JdkInvocationHandler(realSubject).getProxy();
+        Subject proxy = new JdkInvocationHandler<Subject>(realSubject).getProxy();
         proxy.doSomething();
     }
 

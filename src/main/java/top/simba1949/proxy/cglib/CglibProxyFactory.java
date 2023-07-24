@@ -9,7 +9,7 @@ import net.sf.cglib.proxy.MethodInterceptor;
  */
 public class CglibProxyFactory {
 
-    public static SubjectService getProxyObj(Class<?> targetCls, MethodInterceptor methodInterceptor) {
+    public static <T> T getProxyObj(Class<T> targetCls, MethodInterceptor methodInterceptor) {
         // 通过CGLIB动态代理获取代理对象的过程
         Enhancer enhancer = new Enhancer();
         // 设置enhancer对象的父类
@@ -17,6 +17,6 @@ public class CglibProxyFactory {
         // 设置enhancer的回调对象
         enhancer.setCallback(methodInterceptor);
         // 创建代理对象
-        return (SubjectService) enhancer.create();
+        return (T) enhancer.create();
     }
 }

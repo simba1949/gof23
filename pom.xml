@@ -8,7 +8,7 @@
     <artifactId>gof23</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <description>23中设计模式学习笔记</description>
+    <description>23中设计模式</description>
 
     <dependencies>
         <!--logback 1.3.x 支持JDK8,支持 Java EE (javax.* namespace) -->

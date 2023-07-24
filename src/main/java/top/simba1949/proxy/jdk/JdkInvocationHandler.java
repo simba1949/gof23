@@ -11,12 +11,12 @@ import java.lang.reflect.Proxy;
  * @datetime 2023/7/19 22:40
  */
 @Slf4j
-public class JdkInvocationHandler implements InvocationHandler {
+public class JdkInvocationHandler<T> implements InvocationHandler {
 
     // 被代理的类
-    private Subject target;
+    private T target;
 
-    public JdkInvocationHandler(Subject subject) {
+    public JdkInvocationHandler(T subject) {
         this.target = subject;
     }
 
@@ -24,11 +24,11 @@ public class JdkInvocationHandler implements InvocationHandler {
      * 获取被代理接口实例对象
      * @return
      */
-    public Subject getProxy(){
+    public T getProxy(){
         // 第一个参数是类加载器，用于加载这个代理类，可以通过目标对象获取类加载器
         // 第二个参数是Class数组，里面存放的是待实现的接口信息
         // 第三个参数是InvocationHandler实例，代理对象的调用处理程序
-        return (Subject) Proxy.newProxyInstance(
+        return (T) Proxy.newProxyInstance(
                 target.getClass().getClassLoader(),
                 target.getClass().getInterfaces(),
                 this);
