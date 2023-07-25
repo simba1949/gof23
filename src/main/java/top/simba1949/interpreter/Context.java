@@ -14,19 +14,21 @@ public class Context {
 
     /**
      * 添加变量的功能
+     *
      * @param var
      * @param value
      */
-    public void assign(Variable var, Integer value){
+    public void assign(Variable var, Integer value) {
         map.put(var, value);
     }
 
     /**
      * 根据变量获取对应的值
+     *
      * @param var
      * @return
      */
-    public int getVal(Variable var){
+    public int getVal(Variable var) {
         return map.get(var);
     }
 }
