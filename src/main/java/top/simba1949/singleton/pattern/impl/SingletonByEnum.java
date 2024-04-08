@@ -9,8 +9,29 @@ package top.simba1949.singleton.pattern.impl;
  * 结论：推荐使用
  *
  * @author anthony
- * @datetime 2020/5/9 10:37
+ * @version 2024/04/08
+ * @since 2020/5/9 10:37
  */
-public enum SingletonByEnum {
-    INSTANCE;
+public class SingletonByEnum {
+	// 私有构造方法
+	private SingletonByEnum() {
+	}
+	
+	// 对外提供获取实例的方法
+	public static SingletonByEnum getInstance() {
+		return SingletonHolderEnum.INSTANCE.getInstance();
+	}
+	
+	private enum SingletonHolderEnum {
+		INSTANCE;
+		private final SingletonByEnum instance;
+		
+		SingletonHolderEnum() {
+			instance = new SingletonByEnum();
+		}
+		
+		public SingletonByEnum getInstance() {
+			return instance;
+		}
+	}
 }

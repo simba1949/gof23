@@ -40,7 +40,7 @@ public class SingletonPatternApplication {
         // singletonByStaticInnerClass();
 
         // 枚举单例
-        // singletonByEnum();
+         singletonByEnum();
 
         // 防止反射破坏单例
         // singletonByReflect();
@@ -49,7 +49,7 @@ public class SingletonPatternApplication {
         // singletonBySerializable();
 
         // 防止 clone 破坏单例
-        singletonByClone();
+        // singletonByClone();
     }
 
     /**
@@ -248,7 +248,7 @@ public class SingletonPatternApplication {
         for (int i = 0; i < 1000; i++) {
             new Thread(new Runnable() {
                 public void run() {
-                    SingletonByEnum instance = SingletonByEnum.INSTANCE;
+                    SingletonByEnum instance = SingletonByEnum.getInstance();
                     log.info("获取实例的hashCode值为：{}", instance.hashCode());
                     container.add(instance);
                     countDownLatch.countDown();
