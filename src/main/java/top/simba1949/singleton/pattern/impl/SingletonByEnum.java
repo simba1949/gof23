@@ -26,6 +26,10 @@ public class SingletonByEnum {
 		INSTANCE;
 		private final SingletonByEnum instance;
 		
+		/**
+		 * 枚举的构造方法
+		 * JVM 保证这个方法绝对只会被调用一次
+		 */
 		SingletonHolderEnum() {
 			instance = new SingletonByEnum();
 		}
